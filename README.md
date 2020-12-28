@@ -23,12 +23,13 @@ Firstly you need to install xampp and setup
 
 Download the project and put on the local server at xampp
 
-Import the database file *'learn.sql' provided in the project folder at phpmyadmin
+Import the database file *'learn.sql'* provided in the project folder at phpmyadmin
 
-Now change the dbname, username and password for connection accordingly in *'db.php' file
+Now change the dbname, username and password for connection accordingly in *'db.php'* file
 
 Now Project is ready to use
 
 # User Interfaces
 
 1) Home Page 
+![Homwpage](https://github.com/vinay-alt/Elearning_website_project/blob/main/elearning.png)
