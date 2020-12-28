@@ -16,3 +16,7 @@ Requirements to perform dynamic operations at server
 
 Requirements to do database operations
 - SQL
+
+# Installation
+
+* step1 *
