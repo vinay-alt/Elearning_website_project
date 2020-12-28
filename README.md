@@ -20,8 +20,12 @@ Requirements to do database operations
 # Installation
 
 Firstly you need to install xampp and setup
+
 Download the project and put on the local server at xampp
+
 Import the database file *'learn.sql' provided in the project folder at phpmyadmin
+
 Now change the dbname, username and password for connection accordingly in *'db.php' file
+
 Now Project is ready to use
 
