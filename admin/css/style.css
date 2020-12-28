@@ -1,0 +1,191 @@
+:root {
+--color1: #3a539b;
+--color2:#3498db;
+};
+
+*, body{ margin: 0; padding: 0; font-family: verdana; }
+
+body { margin: 0; padding: 0; background-color: blue; }
+
+#header { margin: 0; padding: 0; width: 100%; height: 60px; background-color: var(--color1); }
+/* var(--color1) */
+
+#logo { width: 20%; height: 60px; float: left; }
+#logo h2 { margin: 0; padding: 0; text-align: center; line-height: 60px; }
+#logo h2 a { margin: 0; padding: 0; text-decoration: none; color: var(--color2); text-shadow: 3px 3px 3px #000; }
+/*#74889e*/
+
+#title {  width: 60%; height: 60px; float: left; }
+#title h2 { margin: 0; padding: 0; color: #fff; text-align: center; text-shadow: 3px 3px 3px #000; line-height: 60px;}
+
+#link { width: 20%; height: 60px; float: left; }
+#link h3 { margin: 0; padding: 0; text-align: center; line-height: 60px; display: block;}
+#link h3:hover { background: var(--color2); }
+#link h3 a{ text-decoration: none; color: #fff; }
+
+#bodyleft { margin: 0; padding: 0; background: var(--color1); width: 20%; height: 92vh; float: left; overflow-y: scroll;}
+#bodyleft h3{ margin: 0; padding: 0; font-weight: bold; margin-bottom: 2%; color: #fff; background: var(--color2); text-align: center; line-height: 35px; height: 35px; font-size: 14px;}
+#bodyleft ul { margin: 0; padding: 0; list-style: none; }
+#bodyleft ul li{transition: all 0.6s; width: 100%; height: 35px; line-height: 35px; box-sizing: border-box; }
+#bodyleft ul li a {transition: all 0.6s; display: block; text-decoration: none; color: #fff; font-size: 12px; margin-left: 5%; text-shadow: 3px 3px 3px #000;}
+#bodyleft ul li a i { width: 10%; }
+#bodyleft ul li:hover { background-color: #fff; text-shadow: 1px 1px 3px #000;}
+#bodyleft ul li:hover a { color: var(--color1); p
+	adding-left: 5%; box-sizing: border-box; text-shadow: none;}
+
+#bodyright { margin: 0; padding: 0; background: #fff; width: 80%; height: 92vh; float: right; overflow-y: auto;}
+#bodyright h3{ margin: 0; padding: 0; margin-bottom: 2%; color: #fff; background: var(--color2); text-align: center; line-height: 35px; height: 35px; font-size: 14px; }
+
+#add { margin: 0; padding: 0; width: 100%; padding:2%; box-sizing:border-box;  }
+#add details { width: 60%; margin:auto;}
+#add details summary { cursor: pointer; color: var(--color2); border:1px solid var(--color2); text-align: center; height: 30px; line-height: 30px; outline: none; }
+#add form { background: var(--color2); padding: 3%; box-sizing: border-box;}
+#add form input { margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 2%; box-sizing: border-box; }
+#add form button { width: 40%; height: 30px; box-sizing: border-box; font-size: 12px; line-height: 30px; color: #fff; background: none; outline: none; border: 1px solid #fff;}
+#add form button:hover { cursor: pointer; background: #fff; color: var(--color1);}
+
+#add form select { margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 5%; box-sizing: border-box; }
+#add form textarea { margin-bottom: 2%; width: 100%; height: 100px; outline: none; padding: 2%; box-sizing: border-box; }
+#add table { width: 60%; margin: auto; border:1px solid var(--color2);}
+#add table tr th { height:35px; background: var(--color2); color: #fff; text-align: left; font-size: 12px; box-sizing: border-box; padding-left: 2%;}
+#add table tr td { height:30px; text-align: left; padding-left: 2%; box-sizing: border-box; font-size: 12px; width: 20%;}
+#add table tr td:nth-child(2) { width: 40%; }
+
+#edit { width: 50%; margin:auto; padding:2%; box-sizing:border-box;  } 
+#edit input { margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 5%; box-sizing: border-box; }
+#edit button { width: 40%; height: 30px; box-sizing: border-box; font-size: 12px; line-height: 30px; color: var(--color1); b
+	ackground: none; outline: none; border: 1px solid var(--color1);}
+
+#edit button:hover { cursor: pointer; background: var(--color2); color: #fff;}
+#edit select { margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 5%; box-sizing: border-box; }
+#edit textarea { margin-bottom: 2%; width: 100%; height: 100px; outline: none; padding: 2%; box-sizing: border-box; }
+
+#con { width: 100%; margin: auto;box-sizing: border-box; }
+#con form table { width: 70%; padding:5%; box-sizing: border-box; margin: auto;}
+#con form table tr td { width: 50%; height: 35px; font-size: 12px;}
+#con form table tr td input {border: 1px solid var(--color1); b
+	order-radius: 3px; width: 100%; height: 30px; padding-left: 5%; outline: none;}
+#con form button{cursor: pointer; width: 20%; height: 35px; border: 1px solid var(--color1); b
+	ackground:none; outline: none;}
+#con form button:hover { background-color: var(--color1); c
+	olor: #fff; }
+
+#about form { width: 60%; margin: auto; box-sizing: border-box;  }
+#about form textarea { width: 100%; box-sizing: border-box; height: 200px; padding: 3%;}
+#about form button{cursor: pointer; width: 20%; float:right; height: 35px; border: 1px solid var(--color1); b
+	ackground:none; outline: none;}
+#about form button:hover { background-color: var(--color1); c
+	olor: #fff; }
+
+#stud { background: #fff; width: 80%; height: 92vh; float: right; overflow-y: auto;}
+#stud h3{ margin: 0; padding: 0; margin-bottom: 2%; color: #fff; background: var(--color2); text-align: center; line-height: 35px; height: 35px; font-size: 14px; }
+#stud table { width: 90%; }
+#stud #add table tr td { width: 23%; }
+#stud #add table tr td:nth-child(1) { width: 8%; }
+
+#tea { background: #fff; width: 80%; height: 92vh; float: right; overflow-y: auto;}
+#tea h3{ margin: 0; padding: 0; margin-bottom: 2%; color: #fff; background: var(--color2); text-align: center; line-height: 35px; height: 35px; font-size: 14px; }
+#tea table { width: 90%; }
+#tea #add table tr td { width: 23%; }
+#tea #add table tr td:nth-child(1) { width: 8%; }
+
+#pending { background: #fff; width: 80%; height: 92vh; float: right; overflow-y: auto;}
+#pending h3{ margin: 0; padding: 0; margin-bottom: 2%; color: #fff; background: var(--color2); text-align: center; line-height: 35px; height: 35px; font-size: 14px; }
+#pending table { width: 90%; }
+#pending #add table tr td { width: 23%; }
+#pending #add table tr td:nth-child(1) { width: 8%; }
+#pending #add table tr td a { text-decoration: none; }
+#pending #add table tr td a:hover { text-decoration: underline; }
+#pending #add table tr td button { background: none; border:none; outline: none; color: -webkit-link;  }
+#pending #add table tr td button:hover { text-decoration: underline; }
+#pending #add form { background: none; }
+
+#active { background: #fff; width: 80%; height: 92vh; float: right; overflow-y: auto;}
+#active h3{ margin: 0; padding: 0; margin-bottom: 2%; color: #fff; background: var(--color2); text-align: center; line-height: 35px; height: 35px; font-size: 14px; }
+#active table { width: 90%; }
+#active #add table tr td { width: 22%; }
+#active #add table tr td:nth-child(1) { width: 8%; }
+#active #add table tr td:nth-child(6) { width: 27%; padding: 0%; }
+#active #add table tr th:nth-child(5) { text-align: right; padding-right: 7%; }
+#active #add table tr td a { text-decoration: none; }
+#active #add table tr td a:hover { text-decoration: underline; }
+#active #add table tr td button { background: none; border:none; outline: none; color: -webkit-link;  }
+#active #add table tr td button:hover { text-decoration: underline; }
+#active #add form { background: none; }
+
+#table {width: 100%; height: 500px; margin-top: -2%; border:1px solid var(--color1);}
+
+#table h4 { margin-left: 54.5%; width: 40.5%; height: 30px; line-height: 30px; color:#fff; text-align: center; margin-top: 13%; background: var(--color1); }
+
+#table tr td { width: 50%; border:1px solid var(--color1); }
+
+#table tr td input { padding-left: 4%; width: 46%; }
+#table tr td img { width: 40%; height: 100px; border:1px solid var(--color1); float: right; margin-right: 5%;}
+#butt {width: 20%; margin: 0 auto; margin-top: 5%;}
+#but { width: 100%; height: 35px; background: none;  transition: all 0.5s ease-in-out; border:1px solid var(--color1); border-radius: 20px; }
+#but:hover { background: var(--color1); border-radius: 0px; color: #fff; }
+
+#login { padding-top: 8%; margin: 0; padding-bottom: 2%; width:30%; background-color: #fff; margin: 0 auto; margin-top: 10%; }
+#login h2 { padding: 0; margin: 0%; font-weight: bold; font-size: 30px;color: var(--color1); text-align: center;}
+#login p {padding: 0; margin: 0; padding: 5%;  }
+#login form {padding: 0; margin: 0; padding: 5%; margin-top: 5%; }
+#login form h4 { padding: 0; margin: 0; width: 100%; height: 35px; line-height: 35px; color: var(--color1); font-weight: normal; }
+#login form input { padding: 0; margin: 0; width: 98%; height: 35px; outline: none; padding-left: 2%; }
+#login form button { padding: 0; margin: 0; width: 100%; margin: 10% 0% 0% 0%; height: 40px; background: none; border:1px solid var(--color1); color: var(--color1); transition: all 0.3s ease-in-out; }
+#login form button:hover { background-color: var(--color1); color: #fff; }
+#admin-icon { width: 12%; border-radius: 50%; background-color: #e6e6e6; border:8px solid #2e2e2e; top: 8%; left: 43.5%; position: absolute; height: 180px; }
+#admin-icon img { width: 100%; height: 180px; margin-top: 5%;  }
+#techcon { text-align: center; padding-top: 15px; position: fixed; top: 2%; right: 1%; background-color: #fff; width: 50px; height: 50px; }
+#techcon_info { visibility: hidden; opacity: 0; transition: all 0.3s ease-in-out; width: 300px; height: 200px; background-color: #fff; position: absolute; top: 8%; right: 1%; }
+#techcon_info h3 { font-weight: bold; font-size: 15px; margin-bottom: 15%; text-align: center; margin-top: 4%; color: var(--color1); }
+
+#techcon_info h4 { font-weight: normal; font-size: 15px; text-align: center; margin-top: 4%; color: var(--color1); }
+
+#ho:hover #techcon_info { visibility: visible; opacity: 1; }
+
+#mes { background: #fff; width: 80%; height: 84vh; float: right; overflow-y: auto;}
+#mes h3{ margin: 0; padding: 0; margin-bottom: 2%; color: #fff; background: var(--color2); text-align: center; line-height: 35px; height: 35px; font-size: 14px; }
+#mes table { width: 90%; }
+#mes #add table tr td { width: 23%; }
+#mes #add table tr td:nth-child(1) { width: 8%; }
+
+#mes { width: 100%; padding:2%; box-sizing:border-box;  }
+#mes details { width: 60%; margin:auto;}
+#mes details summary { cursor: pointer; color: var(--color2); border:1px solid var(--color2); text-align: center; height: 30px; line-height: 30px; outline: none; }
+#mes form { background: var(--color2); padding: 3%; box-sizing: border-box;}
+#mes form input { margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 2%; box-sizing: border-box; }
+#mes form button { width: 40%; height: 30px; box-sizing: border-box; font-size: 12px; line-height: 30px; color: #fff; background: none; outline: none; border: 1px solid #fff;}
+#mes form button:hover { cursor: pointer; background: #fff; color: var(--color1);}
+
+#mes form select { margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 5%; box-sizing: border-box; }
+#mes form textarea { margin-bottom: 2%; width: 100%; height: 100px; outline: none; padding: 2%; box-sizing: border-box; }
+#mes table { width: 60%; margin: auto; border:1px solid var(--color2);}
+#mes table tr th { height:35px; background: var(--color2); color: #fff; text-align: left; font-size: 12px; box-sizing: border-box; padding-left: 2%;}
+#mes table tr td { height:30px; text-align: left; padding-left: 2%; box-sizing: border-box; font-size: 12px; width: 20%;}
+#mes table tr td:nth-child(2) { width: 20%; }
+#mes table tr td:nth-child(1) { width: 5%; }
+#mes table tr td:nth-child(3) { width: 25%; }
+#mes table tr td:nth-child(4) { width: 50%; }
+
+#overview_wrap { padding: 0.5% 2%; }
+
+#visitors { padding: 2% 2%; margin: 1%; font-size: 25px; background-color: #d35400; color: #fff; }
+#visitors h4{ margin: 0; padding: 0; }
+#visitors:hover { background-color: #f9690e; }
+
+#students { padding: 2% 2%; margin: 1%; font-size: 25px; background-color: #3a539b; color: #fff; }
+#students h4{ margin: 0; padding: 0; }
+#students:hover { background-color: #446cb3; }
+
+#teachers { padding: 2% 2%; margin: 1%; font-size: 25px; background-color:#d91e18; color: #fff; }
+#teachers h4{ margin: 0; padding: 0; }
+#teachers:hover { background-color: #f22613; }
+
+#pending_courses { padding: 2% 2%; margin: 1%; font-size: 25px; background-color:#f7ca18; color: #fff; }
+#pending_courses h4{ margin: 0; padding: 0; }
+#pending_courses:hover { background-color: #f5e51b; }
+
+#logo { width: 20%; height: 60px; float: left; }
+#active_courses { padding: 2% 2%; margin: 1%; font-size: 25px; background-color:#95a5a6; color: #fff; }
+#active_courses h4{ margin: 0; padding: 0; }
+#active_courses:hover { background-color: #abb7b7; }
