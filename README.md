@@ -31,5 +31,11 @@ Now Project is ready to use
 
 # User Interfaces
 
-1) Home Page 
+## 1) Home Page 
+
 ![Homwpage](https://github.com/vinay-alt/Elearning_website_project/blob/main/elearning.png)
+
+
+
+## 2) Admin Page
+
