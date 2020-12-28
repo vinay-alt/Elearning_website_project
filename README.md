@@ -39,3 +39,4 @@ Now Project is ready to use
 
 ## 2) Admin Page
 
+![Admin Page](https://github.com/vinay-alt/Elearning_website_project/blob/main/admin.png)
