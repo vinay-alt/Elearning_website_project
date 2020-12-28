@@ -5,10 +5,14 @@ Demo of the Project : https://youtu.be/usXtmB2ZLkQ
 
 # Requirements
 Requirements to create a website
+
 - HTML
 - CSS
 - Javascript
+
 Requirements to perform dynamic operations at server
+
 - PHP (XAMPP needs to be installed and setup)
+
 Requirements to do database operations
 - SQL
