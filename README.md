@@ -29,3 +29,6 @@ Now change the dbname, username and password for connection accordingly in *'db.
 
 Now Project is ready to use
 
+# User Interfaces
+
+1) Home Page 
