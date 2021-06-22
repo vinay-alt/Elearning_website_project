@@ -3,33 +3,44 @@ This is an elearning website project where users can enroll to the courses creat
 
 Demo of the Project : https://youtu.be/usXtmB2ZLkQ
 
+---
+
 # Requirements
 Requirements to create a website
 
+```
 - HTML
 - CSS
 - Javascript
+```
 
 Requirements to perform dynamic operations at server
 
+```
 - PHP (XAMPP needs to be installed and setup)
+```
 
 Requirements to do database operations
+```
 - SQL
+```
+---
 
 # Installation
 
-Firstly you need to install xampp and setup
+Firstly you need to install ```xampp``` and setup
 
-Download the project and put on the local server at xampp
+Download the project and put at ```htdocs``` folder inside xampp
 
-Import the database file *'learn.sql'* provided in the project folder at phpmyadmin
+Import the database file ```learn.sql``` provided in the project folder at ```phpmyadmin```
 
-Now change the dbname, username and password for connection accordingly in *'db.php'* file
+Now change the ```dbname```, ```username``` and ```password``` for connection accordingly in ```db.php``` file
 
 Now Project is ready to use
 
 # User Interfaces
+
+---
 
 ## 1) Home Page 
 
